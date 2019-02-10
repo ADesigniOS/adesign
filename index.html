@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A_Design — UI | Jailbreak & Web Designer</title>
+    <meta name="author" content="A_Design">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="adesign.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script> 
+    <script src="https://aesign.me/plugin/animatescroll.js"></script>
+    <script src="https://aesign.me/plugin/jquery.visible.min.js"></script>
+    <script src="https://aesign.me/script.js"></script>
+</head>
+<body>
+
+    <div id="floatingdiv">
+         <a class="circle" id="floating_circlebutton" href="#" onclick="$('body').animatescroll({scrollSpeed:800,easing:'easeOutCubic'});"><img src="arrow.svg"/></a>
+    </div>
+
+    <nav class="nav"><a><svg id="adesignid" width="30px" height="33px" fill="#FFFFFF" viewBox="0 0 30 33" version="1.1">
+        <g transform="translate(-145.000000, -50.000000)" >
+            <path d="M150.824877,79.2554493 C145.534146,74.4429134 145.278625,66.3224339 150.254156,61.1178506 C155.229686,55.9132674 163.552136,55.5954503 168.842867,60.4079862 C169.261259,60.7885627 169.648162,61.1898259 170.003481,61.6086981 C169.319508,59.9782941 168.273126,58.4646075 166.868077,57.1865519 C161.629744,52.4216775 153.389717,52.7363471 148.463462,57.8893861 C147.675033,58.7141112 146.421116,58.7619957 145.623978,58.0369061 C144.82684,57.3118165 144.788342,56.0883295 145.537989,55.3041714 C147.504285,53.2113257 150.041756,51.6203786 153.002563,50.7373973 C162.012531,48.0504155 171.530837,52.9369347 174.262295,61.6517434 C176.376121,68.3959777 173.805884,75.4565287 168.359575,79.5500782 C163.314945,83.7696477 155.754118,83.7391679 150.824877,79.2554493 Z"></path>
+        </g>
+    </svg></a></nav>
+
+
+    <section class="section">
+        <div class="header">
+        <div class="topheader">
+            <a class="symbol" id="aesignsymbol">
+                <img width="100px" src="logo.png">
+            </a>
+        </div>
+        <div class="midheader">
+            <img class="adesign" src="name.png">
+            <h2><span class="bold">UI</span> <span class="slash">|</span> <span class="bold">Jailbreak</span> & <span class="bold">Web</span> Designer</h2>
+        </div>
+        <div class="endheader">
+            <a class="circle "  onclick="$('#aboutme').animatescroll({scrollSpeed:800,easing:'easeOutCubic'});" ><img src="arrow.svg" alt=""></a>
+        </div>
+    </div>
+
+    </section>
+
+
+    <section id="aboutme" class="bio">
+        <img class="mypicture" src="./Images/picture.png">
+        <p>     Hey! I'm <span class="bold">A_Design (YangCheeSen)</span>,<br>
+                a 24 year old Designer based near San Francisco, U.S.A.
+                <br><br>
+                By day I’m a full-time student of  <span class="bold">Interaction Design</span>, by night I work on personal projects and client work.
+                <br><br>
+                I mainly designed User Interface and I have experience in <span class="bold">Jailbreak</span>.
+                <br><br>
+                If you either need something of what I just said or you want only to talk with me, use the <a class="inline-btn" >links</a>.
+            </p>
+        
+<!--        <div class="hashtags">
+            
+            <div class="hashtag"><span class="tag">#</span>hashtaghashtag</div>
+            <div class="hashtag"><span class="tag">#</span>hashtag</div>
+            <div class="hashtag"><span class="tag">#</span>hashtaghashhashhash</div>
+            <div class="hashtag"><span class="tag">#</span>hashtag</div>
+            <div class="hashtag"><span class="tag">#</span>TL;DR</div>
+        </div>
+
+ -->
+
+    </section>
+
+    <section id="socials" class="socialsection">
+        <div class="socialdiv">
+        <a ontouchend="this.onclick=buttonfix" class="social twitter" href="https://www.twitter.com/A_DesigniOS"><span class="iconsocial"><img src="https://aesign.me/Images/Twitter.svg"></span><p><span class="transparent">@</span>A_Design</p></a>        
+        <a ontouchend="this.onclick=buttonfix" class="social github" href="https://www.github.com/ADesigniOS"><span class="iconsocial"><img id="githubimg" src="https://aesign.me/Images/GitHub.svg"></span><p id="githubspan"><span class="transparent">@</span>A_esign</p></a>
+        <a ontouchend="this.onclick=buttonfix" class="social mail" href="mailto:adesign749@gmail.com"><span class="iconsocial"><img src="https://aesign.me/Images/MailIcon.svg"></span><p>adesign749<span class="transparent">@</span>gmail.com</p></a>
+
+    </div>
+    </section>
+</div>
+
+    
+</body>
+</html>
